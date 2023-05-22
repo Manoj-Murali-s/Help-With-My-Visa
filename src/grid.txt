@@ -1,0 +1,342 @@
+
+            <!-- 
+            <div class="p-8 bg-amber-300">
+                <div class="grid grid-rows-3  gap-1">
+
+                <div class="row-span-2 col-span-3 p-4 bg-cyan-400 rounded-md flex items-center justify-center">
+                    1
+                </div>
+
+                <div  class="row-span-1 col-span-3 p-4 bg-cyan-400 rounded-md flex items-center justify-center">
+                    2
+                </div>
+
+                <div  class="row-span-3 col-span-2 p-4 bg-cyan-400 rounded-md flex items-center justify-center">
+                    3
+                </div>
+
+                <div  class="row-span-1 col-span-2 p-4 bg-cyan-400 rounded-md flex items-center justify-center">
+                    4
+                </div>
+
+                <div  class="row-span-1  p-4 bg-cyan-400 rounded-md flex items-center justify-center">
+                    5
+                </div>
+
+                <div class="col-start-1  col-span-2 p-4 bg-cyan-400 rounded-md flex items-center justify-center">
+                    6
+                </div>
+
+                <div class="  p-4 bg-cyan-400 rounded-md flex items-center justify-center">
+                    7
+                </div>
+
+                <div class="row-span-2 row-start-2  col-start-4 col-span-3 p-4 bg-cyan-400 rounded-md flex items-center justify-center">
+                    8
+                </div>
+
+                <div class="row-span-2 row-start-2 col-start-9 col-span-3 p-4 bg-cyan-400 rounded-md flex items-center justify-center">
+                    9
+                </div>
+            </div>
+        </div>
+    -->
+
+            <!-- grid for img height crction  only -->
+            <!--<section class="mt-5" style="font-family: 'Montserrat', sans-serif;">
+                <div class="max-w-screen-xl mx-auto ">
+
+                    <div class="lg:grid lg:grid-cols-10 flex-wrap gap-1 mx-auto ">
+                        <div class="col-span-2 relative">
+                                <a href="#" value="aus">
+                                <span></span>
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">AUSTRALIA</p>
+                                <img src="src/grid/Rectangle 137.png" alt="Australia" class="mx-auto aus" />
+                            </a>
+                            </div>
+
+                            <div class="relative col-span-2 row-span-1 h-fit">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-white bottom-0 right-0 p-3.5 absolute">SINGAPORE</p>
+                                <img src="src/grid/Rectangle 144.png" alt="Singapore" class=" mx-auto " />
+                            </a>
+                            </div>
+
+                        <div class="relative col-span-2 row-span-5">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-black  p-3.5 absolute">PARIS</p>
+                                <img src="src/grid/Rectangle 141.png" alt="" class="w-72 h-96  mx-auto " />
+                            </a>
+                            </div>
+
+                        <div class="relative col-span-2">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-black bottom-0 p-3.5 absolute">EGYPT</p>
+                                <img src="src/grid/Rectangle 146.png" alt="" class="w-72 h-40 mx-auto " />
+                            </a>
+                            </div>
+
+                        <div class="relative col-span-2">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">CHINA</p>
+                                <img src="src/grid/Rectangle 147.png" alt="" class="w-72 h-40 mx-auto " />
+                            </a>
+                            </div>
+
+                        <div class="relative col-span-1">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">UNITED STATES</p>
+                                <img src="src/grid/Rectangle 140.png" alt=""
+                                    class="mx-auto" />
+                                </a>
+                            </div>
+
+                        <div class="relative col-span-1">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-black p-3.5 absolute">DUBAI</p>
+                                <img src="src/grid/Rectangle 145.png" alt="" class="mx-auto " />
+                            </a>
+                            </div>
+
+                        <div class="relative col-span-2">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-black p-3.5 absolute">INDIA</p>
+                                <img src="src/grid/Rectangle 143.png" alt="" class="lg:w-64 h-56 mx-auto  w-72" />
+                            </a>
+                            </div>
+
+                        <div class="relative col-span-4">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-white  p-3.5 absolute">UNITED NATION</p>
+                                <img src="src/grid/Rectangle 142.png" alt="" class="lg:w-full h-56 mx-auto  sm:w-72" />
+                            </a>
+                            </div>
+                    </div>
+
+                </div>
+            </section> -->
+
+
+
+            <!-- <section class="mt-5" style="font-family: 'Montserrat', sans-serif;">
+                <div class="max-w-screen-xl mx-auto ">
+
+                    <div class="lg:grid lg:grid-cols-10 flex-wrap gap-1 mx-auto grid-rows-3">
+                        <div class="row-span-2 col-span-3 relative">
+                                <a href="#" value="aus">
+                                <span></span>
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">AUSTRALIA</p>
+                                <img src="src/grid/Rectangle 137.png" alt="Australia" class="mx-auto" />
+                            </a>
+                            </div>
+
+                            <div class="relative row-span-1 col-span-3">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-white bottom-0 right-0 p-3.5 absolute">SINGAPORE</p>
+                                <img src="src/grid/Rectangle 144.png" alt="Singapore" class="mx-auto " />
+                            </a>
+                            </div>
+
+                        <div class="relative row-span-3 col-span-2">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-black  p-3.5 absolute">PARIS</p>
+                                <img src="src/grid/Rectangle 141.png" alt="" class="mx-auto " />
+                            </a>
+                            </div>
+
+                        <div class="relative row-span-1 col-span-2">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-black bottom-0 p-3.5 absolute">EGYPT</p>
+                                <img src="src/grid/Rectangle 146.png" alt="" class="mx-auto " />
+                            </a>
+                            </div>
+
+                        <div class="relative row-span-1">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">CHINA</p>
+                                <img src="src/grid/Rectangle 147.png" alt="" class="mx-auto " />
+                            </a>
+                            </div>
+
+                        <div class="relative col-start-1 mb-2 col-span-2">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">UNITED STATES</p>
+                                <img src="src/grid/Rectangle 140.png" alt=""
+                                    class="mx-auto" />
+                                </a>
+                            </div>
+
+                        <div class="relative col-span-1">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-black p-3.5 absolute">DUBAI</p>
+                                <img src="src/grid/Rectangle 145.png" alt="" class="mx-auto" />
+                            </a>
+                            </div>
+
+                        <div class="relative row-span-2 row-start-2  col-start-4 col-span-3">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-black p-3.5 absolute">INDIA</p>
+                                <img src="src/grid/Rectangle 143.png" alt="" class="mx-auto" />
+                            </a>
+                            </div>
+
+                        <div class="relative row-span-2 row-start-2 col-start-9 col-span-3">
+                                <a href="#" value="">
+                                <span></span>
+                                <p class="text-sm text-white  p-3.5 absolute">UNITED NATION</p>
+                                <img src="src/grid/Rectangle 142.png" alt="" class="mx-auto" />
+                            </a>
+                            </div>
+                    </div>
+
+                </div>
+            </section> -->
+
+            <!-- grid rt with pics  -->
+            <!-- <div class="p-8 bg-amber-300">
+                <div class="grid grid-rows-3  gap-1">
+
+                <div class="row-span-2 col-span-3 bg-cyan-400 rounded-md flex items-center justify-center">
+                    <a href="#" value="aus">
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">AUSTRALIA</p>
+                                <img src="src/grid/Rectangle 137.png" alt="Australia" class="mx-auto" />
+                            </a>
+                </div>
+
+                <div  class="row-span-1 col-span-3 bg-cyan-400 rounded-md flex items-center justify-center">
+                    <a href="#" value="aus">
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">AUSTRALIA</p>
+                                <img src="src/grid/Rectangle 144.png" alt="Australia" class="mx-auto" />
+                            </a>
+                </div>
+
+                <div  class="row-span-3 col-span-2 bg-cyan-400 rounded-md flex items-center justify-center">
+                    <a href="#" value="aus">
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">AUSTRALIA</p>
+                                <img src="src/grid/Rectangle 141.png" alt="Australia" class="mx-auto" />
+                            </a>
+                </div>
+
+                <div  class="row-span-1 col-span-2 bg-cyan-400 rounded-md flex items-center justify-center">
+                    <a href="#" value="aus">
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">AUSTRALIA</p>
+                                <img src="src/grid/Rectangle 146.png" alt="Australia" class="mx-auto" />
+                            </a>
+                </div>
+
+                <div  class="row-span-1  bg-cyan-400 rounded-md flex items-center justify-center">
+                    <a href="#" value="aus">
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">AUSTRALIA</p>
+                                <img src="src/grid/Rectangle 147.png" alt="Australia" class="mx-auto" />
+                            </a>
+                </div>
+
+                <div class="col-start-1  col-span-2 bg-cyan-400 rounded-md flex items-center justify-center">
+                    <a href="#" value="aus">
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">AUSTRALIA</p>
+                                <img src="src/grid/Rectangle 140.png" alt="Australia" class="mx-auto" />
+                            </a>
+                </div>
+
+                <div class="  bg-cyan-400 rounded-md flex items-center justify-center">
+                    <a href="#" value="aus">
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">AUSTRALIA</p>
+                                <img src="src/grid/Rectangle 145.png" alt="Australia" class="mx-auto" />
+                            </a>
+                </div>
+
+                <div class="row-span-2 row-start-2  col-start-4 col-span-3 bg-cyan-400 rounded-md flex items-center justify-center">
+                    <a href="#" value="aus">
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">AUSTRALIA</p>
+                                <img src="src/grid/Rectangle 143.png" alt="Australia" class="mx-auto" />
+                            </a>
+                </div>
+
+                <div class="row-span-2 row-start-2 col-start-9 col-span-3 bg-cyan-400 rounded-md flex items-center justify-center">
+                    <a href="#" value="aus">
+                                <p class="text-sm text-white bottom-0 p-3.5 absolute">AUSTRALIA</p>
+                                <img src="src/grid/Rectangle 142.png" alt="Australia" class="mx-auto" />
+                            </a>
+                </div>
+            </div></div> -->
+
+
+            testimonial cards 
+
+
+
+
+            <!-- for cards  -->
+        <!-- <div class="flex justify-evenly gap-4 flex-wrap"> -->
+        <!-- card 1  -->
+        <!-- <div class="max-w-xs p-6 h-fit bg-cardbg rounded-xl ">
+                <div class="flex justify-evenly">
+                    <img src="src/Testimonials/Ellipse 110.png" alt="" srcset="">
+                    <div class="flex flex-col justify-center">
+                        <p class="text-green-primary ">Name</p>
+                        <p class="text-white">id</p>
+                    </div>
+                    <span class="px-3"></span>
+                </div>
+                <p class="mb-3 font-normal text-white dark:text-gray-400 p-3">Lorem Ipsum is simply text of the printing
+                    and typesetting industry. </p>
+
+            </div> -->
+
+        <!-- card 2  -->
+
+        <!-- <div class="max-w-xs p-6 h-fit bg-cardbg rounded-xl ">
+                <div class="flex justify-evenly">
+                    <img src="src/Testimonials/Ellipse 110 (1).png" alt="" srcset="">
+                    <div class="flex flex-col justify-center">
+                        <p class="text-green-primary ">Name</p>
+                        <p class="text-white">id</p>
+                    </div>
+                    <span class="px-3"></span>
+                </div>
+                <p class="mb-3 font-normal text-white dark:text-gray-400 p-3">Lorem Ipsum is simply dummy text
+                    of the printing and typesetting
+                    industry.Lorem Ipsum is simply
+                    dummy text of the printing and
+                    typesetting industry. Lorem Ipsum
+                    is simply dummy text of the printing
+                    and typesetting industry. </p>
+
+            </div> -->
+
+        <!-- card 3  -->
+
+        <!-- <div class="max-w-sm p-6 h-fit bg-cardbg rounded-xl ">
+                <div class="flex justify-evenly">
+                    <img src="src/Testimonials/Ellipse 110 (2).png" alt="" srcset="">
+                    <div class="flex flex-col justify-center">
+                        <p class="text-green-primary ">Name</p>
+                        <p class="text-white">id</p>
+                    </div>
+                    <span class="px-3"></span>
+                </div>
+                <p class="mb-3 font-normal text-white dark:text-gray-400 p-3">Lorem Ipsum is simply dummy text
+                    of the printing and typesetting
+                    industry.Lorem Ipsum is simply
+                    dummy text of the printing and
+                    typesetting industry.</p>
+
+            </div>
+
+        </div> -->
+

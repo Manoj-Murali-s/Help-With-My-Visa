@@ -1,0 +1,897 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Visa</title>
+    <link rel="shortcut icon" href="src/Ellipse 6.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="input.css">
+
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@500&family=Nunito+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- for slider  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- for dropdown   -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" />
+    <script defer src="https://unpkg.com/alpinejs@3.9.1/dist/cdn.min.js"></script>
+</head>
+
+<body>
+    <!-- whole section  -->
+
+    <div class="container   mx-auto px-5" style="font-family: 'Nunito Sans', sans-serif;">
+
+
+
+
+
+
+        <!-- navbar Start -->
+
+
+        <nav class="bg-white border-gray-200 dark:bg-gray-900">
+            <!-- max-w-screen-xl -->
+            <div class=" flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="#" class="flex items-center">
+                    <img src="src/Brand logo.png" class="lg:h-20 md:h-18 h-16 mr-3" alt="Brand Logo" />
+                    <!-- <span
+                        class="self-center text-green-primary text-2xl font-bold whitespace-nowrap dark:text-white hidden sm:block">HelpWithMyVisa</span> -->
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 "
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div class="hidden w-full lg:block md:w-auto" id="navbar-default">
+                    <ul
+                        class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-white text-2xl font-semibold bg-green-primary rounded-lg  md:text-white  dark:text-white md:dark:text-blue-500"
+                                aria-current="page">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-500 rounded hover:bg-green-primary hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-green-primary dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent text-2xl font-semibold ">About</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-500 rounded hover:bg-green-primary hover:text-white  md:hover:bg-transparent md:border-0 md:hover:text-green-primary dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent text-2xl font-semibold ">News</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-500 rounded hover:bg-green-primary hover:text-white  md:hover:bg-transparent md:border-0 md:hover:text-green-primary dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent text-2xl font-semibold ">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-500 rounded hover:bg-green-primary hover:text-white  md:hover:bg-transparent md:border-0 md:hover:text-green-primary dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent text-2xl font-semibold ">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- navbar end  -->
+
+
+
+
+        <!-- header wid pic strt  -->
+        <!-- left side  -->
+
+        <section class="flex flex-col-reverse md:flex-row justify-evenly  md:pt-8 lg:pt-10 sm:pt-5">
+            <div class=" wd-full md:p-6 block self-center">
+
+                <h1 class="text-green-primary lg:text-5xl md:text-4xl text-4xl lg:leading-[4.375rem]">Your Gateway to
+                    Global Opportunities</h1>
+
+                <p class="text-xl md:text-xl lg:text-2xl text-cardbg leading-9 lg:pt-8 pt-2">Lorem Ipsum is simply dummy
+                    text of the printing and typesetting industry. </p>
+
+
+
+
+
+
+
+
+
+                <!-- Dropdown menu -->
+
+                <!-- page -->
+
+
+
+
+
+
+
+
+
+
+
+                <!-- drpdown Search  
+                    -->
+                <!-- <div class="flex justify-center">
+                        <button type="button" class="w-1/2 text-black mt-2 bg-green-primary hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Search</button>
+                
+                    </div> -->
+
+
+
+
+
+
+                <!-- Dropdown menu -->
+
+                <div class="py-5 min-w-[96] min-h-14 z-1">
+                    <main class="flex w-full items-center justify-center  ">
+                        <!-- component -->
+                        <div x-data="select" class="relative" style="width:fit-content;" @click.outside="open = false">
+                            <!-- trigger button -->
+                            <button type="button" @click="toggle"
+                                class="flex border-solid border-2 rounded-3xl items-center justify-between p-2 text-xl hover:bg-green-primary hover:text-white mx-auto"
+                                :class="(open) && 'ring-blue-600'">
+                                <img src="src/Passport.png" alt="relative" srcset="" class="pr-3 ">
+                                <span x-text="(country == '') ? 'select Your Country' : country"></span>
+                                <span class="text-2xl grid place-content-center pl-3">
+                                    <img src="src/Down Button.png" alt="" srcset="">
+                                    <!-- <i class='bx bx-chevron-down '></i> -->
+                                </span>
+                            </button>
+
+                            <!-- list items -->
+                            <ul class="z-2 absolute mt-2 w-full rounded bg-gray-50 ring-1 ring-gray-300"
+                                style="z-index: 1;" x-show="open">
+                                <li class="cursor-pointer select-none p-2 text-xl hover:bg-green-primary hover:text-white  text-center"
+                                    @click="setCountry('Australia')">
+                                    Australia
+                                </li>
+                                <li class="cursor-pointer select-none p-2 text-xl hover:bg-green-primary hover:text-white text-center"
+                                    @click="setCountry('Singapore')">
+                                    Singapore
+                                </li>
+                                <li class="cursor-pointer select-none p-2 text-xl hover:bg-green-primary hover:text-white text-center"
+                                    @click="setCountry('Paris')">
+                                    Paris
+                                </li>
+                                <li class="cursor-pointer select-none p-2 text-xl hover:bg-green-primary hover:text-white text-center"
+                                    @click="setCountry('Egypt')">
+                                    Egypt
+                                </li>
+                                <li class="cursor-pointer select-none p-2 text-xl hover:bg-green-primary hover:text-white text-center"
+                                    @click="setCountry('China')">
+                                    China
+                                </li>
+                                <li class="cursor-pointer select-none p-2 text-xl hover:bg-green-primary hover:text-white text-center"
+                                    @click="setCountry('United States')">
+                                    United States
+                                </li>
+                                <li class="cursor-pointer select-none p-2 text-xl hover:bg-green-primary hover:text-white text-center"
+                                    @click="setCountry('Dubai')">
+                                    Dubai
+                                </li>
+                                <li class="cursor-pointer select-none p-2 text-xl hover:bg-green-primary hover:text-white text-center"
+                                    @click="setCountry('India')">
+                                    India
+                                </li>
+                                <li class="cursor-pointer select-none p-2 text-xl hover:bg-green-primary hover:text-white text-center"
+                                    @click="setCountry('United Nation')">
+                                    United Nation
+                                </li>
+
+                            </ul>
+                        </div>
+                    </main>
+
+
+
+
+
+
+                </div>
+                <div class="flex justify-center py-5">
+                    <button type="submit" value="Search"
+                        class=" text-cardbg bg-green-primary border-0 py-2 px-6 focus:outline-none hover:bg-green-primarybg rounded-full text-lg">
+                        Search
+                    </button></div>
+
+                <!-- component  end-->
+
+
+            </div>
+            <!-- right  side -->
+            <!-- sm:h-137 sm:w-323 md:h-237 md:w-423 lg:h-437 lg:w-623 -->
+            <div class="md:flex justify-end">
+                <img src="src/Group 319.png" alt="" srcset=""></div>
+        </section>
+
+
+        <!-- header wid pic end -->
+
+
+
+
+
+        <!-- grid with countries Start  -->
+
+        <section class="py-8">
+
+            <!-- grid top letters  -->
+
+
+
+
+
+
+            <div class="flex justify-around flex-wrap md:flex-nowrap py-8">
+                <div></div>
+                <div class="block">
+                    <h3 class="text-center text-cardbg text-2xl" style="font-family: 'Dancing Script', cursive;">
+                        Trending Visas From</h3>
+                    <h2 class="text-green-primary text-center" style="font-size: 32px;">The world's best countries</h2>
+                </div>
+                <div class=" xl:block self-end flex py-2"><button
+                        class="inline-flex text-cardbg bg-green-primary border-0 py-1 px-6 focus:outline-none hover:bg-green-primarybg rounded-full text-lg ">Load
+                        more</button>
+                </div>
+            </div>
+
+
+
+
+            <!-- for grid pics  -->
+
+            <!-- grid flex  -->
+            <div class="flex justify-center flex-wrap lg:flex-nowrap " style="font-family: 'Montserrat', sans-serif;">
+                <!-- flex 1  -->
+
+                <div class="flex flex-col justify-between px-1 f1">
+                    <a href="#" value="" class="relative py-2 md:py-0 lg:py-0 xl:py-0"><span></span>
+                        <img src="src/grid/Rectangle 137.png" alt="Australia" class="mx-auto" />
+                        <p class="text-sm text-white bottom-0 p-3.5 absolute">AUSTRALIA</p>
+                    </a>
+                    <div class="flex justify-around">
+                        <a href="#" value="" class="relative py-2 md:py-0"><span></span>
+                            <p class="text-sm text-white bottom-0 p-3.5 absolute">UNITED STATES</p>
+                            <img src="src/grid/Rectangle 140.png" alt="" class="mx-auto" />
+                        </a>
+                        <a href="#" value="" class="relative py-2 md:py-0"><span></span>
+                            <p class="text-sm text-black p-3.5 absolute">DUBAI</p>
+                            <img src="src/grid/Rectangle 145.png" alt="" class="mx-auto" />
+                        </a>
+                    </div>
+                </div>
+                <!-- flex 2  -->
+                <div class="flex flex-col justify-between px-1 f2">
+                    <a href="#" value="" class="relative py-2 md:py-0"><span></span>
+                        <p class="text-sm text-white bottom-0 right-0 p-3.5 absolute">SINGAPORE</p>
+                        <img src="src/grid/Rectangle 144.png" alt="Singapore" class="mx-auto sng" />
+                    </a>
+                    <a href="#" value="" class="relative py-2 md:py-0"><span></span>
+                        <p class="text-sm text-black p-3.5 absolute">INDIA</p>
+                        <img src="src/grid/Rectangle 143.png" alt="" class="mx-auto ind" />
+                    </a>
+                </div>
+                <!-- flex 3  -->
+                <div class="flex px-1 f3">
+                    <a href="#" value="" class="relative py-2 md:py-0"><span></span>
+                        <p class="text-sm text-black  p-3.5 absolute">PARIS</p>
+                        <img src="src/grid/Rectangle 141.png" alt="" class="mx-auto pp" />
+                    </a>
+                </div>
+                <!-- flex 4  -->
+                <div class="flex flex-col lg:justify-between justify-evenly px-1 f4">
+                    <div class="flex justify-between">
+                        <a href="#" value="" class="relative py-2 md:py-0"><span></span>
+                            <p class="text-sm text-black bottom-0 p-3.5 absolute">EGYPT</p>
+                            <img src="src/grid/Rectangle 146.png" alt="" class="mx-auto " />
+                        </a>
+
+                        <a href="#" value="" class="relative py-2 md:py-0"><span></span>
+                            <p class="text-sm text-white bottom-0 p-3.5 absolute">CHINA</p>
+                            <img src="src/grid/Rectangle 147.png" alt="" class="mx-auto " />
+                        </a>
+                    </div>
+                    <a href="#" value="" class="relative py-2 md:py-0"><span></span>
+                        <p class="text-sm text-white  p-3.5 absolute">UNITED NATION</p>
+                        <img src="src/grid/Rectangle 142.png" alt="" class="mx-auto" />
+                    </a>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+        <!-- grid with countries End  -->
+
+
+
+
+
+        <!-- After grid section Start  -->
+        <section>
+            <div class="text-center">
+                <p class="text-3xl text-cardbg" style="font-family: 'Dancing Script', cursive;">what we’re Offering</p>
+                <p class="text-green-primary py-4" style="font-size: 32px;">Providing Value for Visa Categories</p>
+            </div>
+
+            <!-- lower content start -->
+            <!-- flex-wrap  -->
+            <div class="flex justify-evenly px-6 flex-wrap md:py-10 sm:py-4 py-6">
+                <div class="lg:w-[20vw] lg:pr-2.5">
+                    <p class="font-light text-base py-5 text-justify">Lorem Ipsum has been the industry's standard dummy
+                        text ever since
+                        the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="p-2 md:block">
+                        <button
+                            class="inline-flex text-cardbg bg-green-primary border-0 py-2 px-5 focus:outline-none hover:bg-green-600 rounded-full text-lg font-semibold">
+                            View All Visas
+                        </button>
+                    </div>
+
+
+                </div>
+
+                <div class="p-4 lg:w-[15vw] lg:px-5">
+                    <p class="font-semibold text-cardbg text-xl">Student Visa</p>
+                    <img src="src/Group 224.png" alt="" class="mx-auto" srcset="">
+                    <p class="text-sm font-light text-center mx-auto">Lorem Ipsum is simply dummy
+                        text of the printing and
+                        typesetting industry. </p>
+                </div>
+                <div class="p-4 lg:w-[15vw] lg:px-5">
+                    <p class="font-semibold text-cardbg  text-xl">Tourist Visa</p>
+                    <img src="src/Group 222.png" alt="" class="mx-auto" srcset="">
+                    <p class="text-sm font-light text-center mx-auto">Lorem Ipsum is simply dummy
+                        text of the printing and typesetting industry. </p>
+                </div>
+                <div class="p-4 lg:w-[15vw] lg:pl-2.5">
+                    <p class="font-semibold text-cardbg  text-xl">Family Visa</p>
+                    <img src="src/Group 220.png" alt="" class="mx-auto " srcset="">
+                    <p class="text-sm font-light text-center mx-auto"> Lorem Ipsum is simply dummy
+                        text of the printing and
+                        typesetting industry. </p>
+                </div>
+            </div>
+
+            <!-- lower content end -->
+
+
+
+
+
+        </section>
+        <!-- After grid section End  -->
+
+        <!-- green area start  -->
+        <section>
+            <div class="py-2 md:p-7 p-4">
+                <p class="text-center text-cardbg text-2xl" style="font-family: 'Dancing Script', cursive;">Working
+                    Process
+                </p>
+                <p class="text-center text-green-primary text-2xl py-4" style="font-size: 36px;">How it Works</p>
+            </div>
+            <div class="w-full my-4 md:my-8 sm:my-2" style="background-color: #A0DBC1;">
+                <div class="flex justify-evenly lg:py-6 md:py-4 py-4 lg:px-50  flex-wrap">
+                    <div class="py-2 my-2">
+                        <img src="src/Group 215.png" alt="" class="mx-auto" srcset="">
+                        <p class="text-center">Book An Appointment</p>
+                        <p class="text-center">Lorem Ipsum is simply dummy text of <br>
+                            the printing and typesetting industry. </p>
+                    </div>
+
+                    <div class="py-2 my-2">
+                        <img src="src/undraw_experts_re_i40h 1.png" alt="" class="mx-auto" srcset="">
+                        <p class="text-center">Immigration Experts</p>
+                        <p class="text-center">Lorem Ipsum is simply dummy text of <br>
+                            the printing and typesetting industry. </p>
+                    </div>
+                    <div class="py-2 my-2">
+                        <img src="src/undraw_package_arrived_63rf 1.png" alt="" class="mx-auto" srcset="">
+                        <p class="text-center">Apply Online Visa</p>
+                        <p class="text-center">Lorem Ipsum is simply dummy text of <br>
+                            the printing and typesetting industry. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- green area END  -->
+
+        <!-- testimonial start  -->
+
+
+
+        <div class="lg:p-10  md:p-7 p-4">
+            <p class="text-center text-cardbg text-2xl" style="font-family: 'Dancing Script', cursive;">Testimonials</p>
+            <p class="text-center text-green-primary text-3xl py-4">See What People Are Saying</p>
+        </div>
+
+
+        <!-- Slider  -->
+
+
+        <div class="flex justify-evenly relative py-8">
+            <img src="src/Testimonials/Group 231.png" alt="" srcset="" class="absolute top-0 left hidden md:block w-24 h-36"
+                style="left: 40px;">
+
+            <div class="block self-center p-2"> <button aria-label="Previous slide"
+                    class="prev-button rounded-full p-4 bg-green-primary text-white ">
+                    <svg class="h-5 w-5 -rotate-180 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                    </svg>
+                </button>
+
+            </div>
+
+
+            <div class="mx-auto max-w-full p-2 sm:px-6 sm:py-12 lg:me-0 lg:pe-2 lg:ps-2">
+                <div class="grid grid-cols-1 gap-y-10 lg:grid-cols-1 lg:items-center lg:gap-x-16">
+
+
+
+                    <!-- <div class="hidden lg:mt-8 lg:flex lg:gap-4">
+                       
+                        <button
+                            class="prev-button rounded-full border border-pink-600 p-3 text-pink-600 hover:bg-pink-600 hover:text-white">
+                            <span class="sr-only">Previous Slide</span>
+                            <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                class="h-5 w-5 rtl:rotate-180">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                            </svg>
+                        </button>
+
+                        <button
+                            class="next-button rounded-full border border-pink-600 p-3 text-pink-600 hover:bg-pink-600 hover:text-white">
+                            <span class="sr-only">Next Slide</span>
+                            <svg class="h-5 w-5 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" />
+                            </svg>
+                        </button>
+
+                    </div>  -->
+
+                    <div class="-mx-4 lg:col-span-2 lg:mx-0 ">
+                        <div class="swiper-container !overflow-hidden h-fit">
+                            <div class="swiper-wrapper">
+
+                                <!-- card 1  -->
+                                <div class="swiper-slide ">
+
+
+
+                                    <!-- for eluthu  -->
+                                    <div class=" p-6 h-fit bg-cardbg rounded-xl" ">
+                                        <div class=" flex justify-evenly">
+                                        <img src="src/Testimonials/Ellipse 110.png" alt="" srcset="">
+                                        <div class="flex flex-col justify-center">
+                                            <p class="text-green-primary ">Name</p>
+                                            <p class="text-white">id</p>
+                                        </div>
+                                        <span class="px-3"></span>
+                                    </div>
+
+                                    <p class="mb-3 font-normal text-white dark:text-gray-400 p-3 ">Lorem Ipsum is
+                                        simply dummy text
+                                        of the printing and typesetting
+                                        industry.
+
+                                    </p>
+                                    <img src="src/Get Quote.png" alt="" class="absolute top-16 right-0 pr-5 pt-3">
+
+
+                                </div>
+
+
+                            </div>
+
+                            <!-- card 2 -->
+                            <div class="swiper-slide mx-auto">
+
+
+
+                                <!-- for eluthu  -->
+                                <div class=" p-6 h-fit bg-cardbg rounded-xl">
+                                    <div class="flex justify-evenly">
+                                        <img src="src/Testimonials/Ellipse 110 (1).png" alt="" srcset="">
+                                        <div class="flex flex-col justify-center">
+                                            <p class="text-green-primary ">Name</p>
+                                            <p class="text-white">id</p>
+                                        </div>
+                                        <span class="px-3"></span>
+                                    </div>
+                                    <p class="mb-3 font-normal text-white dark:text-gray-400 p-3">Lorem Ipsum is
+                                        simply dummy text
+                                        of the printing and typesetting
+                                        industry.Lorem Ipsum is simply
+                                        dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum
+                                        is simply dummy text of the printing
+                                        and typesetting industry. </p>
+                                    <img src="src/Get Quote.png" alt="" class="absolute top-16 right-0 pr-5 pt-3">
+
+
+                                </div>
+
+
+
+                            </div>
+
+                            <!-- card 3 -->
+                            <div class="swiper-slide mx-auto">
+
+
+
+                                <!-- for eluthu  -->
+                                <div class=" p-6 h-fit bg-cardbg rounded-xl ">
+                                    <div class="flex justify-evenly">
+                                        <img src="src/Testimonials/Ellipse 110 (2).png" alt="" srcset="">
+                                        <div class="flex flex-col justify-center">
+                                            <p class="text-green-primary ">Name</p>
+                                            <p class="text-white">id</p>
+                                        </div>
+                                        <span class="px-3"></span>
+                                    </div>
+                                    <p class="mb-3 font-normal text-white dark:text-gray-400 p-3">Lorem
+                                        Ipsum is simply dummy text
+                                        of the printing and typesetting
+                                        industry.Lorem Ipsum is simply
+                                        dummy text of the printing and
+                                        typesetting industry.</p>
+                                    <img src="src/Get Quote.png" alt="" class="absolute top-16 right-0 pr-5 pt-3">
+                                </div>
+
+
+
+
+                            </div>
+
+                            <!-- card 4  -->
+                            <div class="swiper-slide mx-auto"">
+
+
+
+                                    <!-- for eluthu  -->
+                                    <div class=" p-6 h-fit bg-cardbg rounded-xl ">
+                                        <div class=" flex justify-evenly">
+                                <img src="src/Testimonials/Ellipse 110.png" alt="" srcset="">
+                                <div class="flex flex-col justify-center">
+                                    <p class="text-green-primary ">Name</p>
+                                    <p class="text-white">id</p>
+                                </div>
+                                <span class="px-3"></span>
+                            </div>
+                            <p class="mb-3 font-normal text-white dark:text-gray-400 p-3">Lorem Ipsum is
+                                simply text of the printing
+                                and typesetting industry. </p>
+
+                            <img src="src/Get Quote.png" alt="" class="absolute top-16 right-0 pr-5 pt-3">
+                        </div>
+
+
+
+                    </div>
+
+                    <!-- card 5 -->
+                    <div class="swiper-slide mx-auto" style="width: 350px;">
+
+
+                        <!-- for eluthu  -->
+                        <div class=" p-6 h-fit bg-cardbg rounded-xl ">
+                            <div class="flex justify-evenly">
+                                <img src="src/Testimonials/Ellipse 110 (1).png" alt="" srcset="">
+                                <div class="flex flex-col justify-center">
+                                    <p class="text-green-primary ">Name</p>
+                                    <p class="text-white">id</p>
+                                </div>
+                                <span class="px-3"></span>
+                            </div>
+                            <p class="mb-3 font-normal text-white dark:text-gray-400 p-3">Lorem Ipsum is
+                                simply dummy text
+                                of the printing and typesetting
+                                industry.Lorem Ipsum is simply
+                                dummy text of the printing and
+                                typesetting industry. Lorem Ipsum
+                                is simply dummy text of the printing
+                                and typesetting industry. </p>
+
+                            <img src="src/Get Quote.png" alt="" class="absolute top-16 right-0 pr-5 pt-3">
+
+                        </div>
+
+
+
+                    </div>
+
+                    <!-- card 6 -->
+                    <div class="swiper-slide mx-auto" style="width: 350px;">
+
+
+
+                        <!-- for eluthu  -->
+                        <div class=" p-6 h-fit bg-cardbg rounded-xl ">
+                            <div class="flex justify-evenly">
+                                <img src="src/Testimonials/Ellipse 110 (2).png" alt="" srcset="">
+                                <div class="flex flex-col justify-center">
+                                    <p class="text-green-primary ">Name</p>
+                                    <p class="text-white">id</p>
+                                </div>
+                                <span class="px-3"></span>
+                            </div>
+                            <p class="mb-3 font-normal text-white dark:text-gray-400 p-3">Lorem
+                                Ipsum is simply dummy text
+                                of the printing and typesetting
+                                industry.Lorem Ipsum is simply
+                                dummy text of the printing and
+                                typesetting industry.</p>
+                            <img src="src/Get Quote.png" alt="" class="absolute top-16 right-0 pr-5 pt-3">
+
+                        </div>
+
+
+
+
+                    </div>
+
+                    <!-- card 7  -->
+                    <div class="swiper-slide mx-auto" style="width: 350px;">
+
+
+
+                        <!-- for eluthu  -->
+                        <div class=" p-6 h-fit bg-cardbg rounded-xl">
+                            <div class="flex justify-evenly">
+                                <img src="src/Testimonials/Ellipse 110.png" alt="" srcset="">
+                                <div class="flex flex-col justify-center">
+                                    <p class="text-green-primary ">Name</p>
+                                    <p class="text-white">id</p>
+                                </div>
+                                <span class="px-3"></span>
+                            </div>
+                            <p class="mb-3 font-normal text-white dark:text-gray-400 p-3">Lorem Ipsum is
+                                simply text of the printing
+                                and typesetting industry. </p>
+                            <img src="src/Get Quote.png" alt="" class="absolute top-16 right-0 pr-5 pt-3">
+
+                        </div>
+
+
+
+                    </div>
+
+                    <!-- card 8 -->
+                    <div class="swiper-slide mx-auto" style="width: 350px;">
+
+
+
+                        <!-- for eluthu  -->
+                        <div class=" p-6 h-fit bg-cardbg rounded-xl ">
+                            <div class="flex justify-evenly">
+                                <img src="src/Testimonials/Ellipse 110 (1).png" alt="" srcset="">
+                                <div class="flex flex-col justify-center">
+                                    <p class="text-green-primary ">Name</p>
+                                    <p class="text-white">id</p>
+                                </div>
+                                <span class="px-3"></span>
+                            </div>
+                            <p class="mb-3 font-normal text-white dark:text-gray-400 p-3">Lorem Ipsum is
+                                simply dummy text
+                                of the printing and typesetting
+                                industry.Lorem Ipsum is simply
+                                dummy text of the printing and
+                                typesetting industry. Lorem Ipsum
+                                is simply dummy text of the printing
+                                and typesetting industry. </p>
+
+                            <img src="src/Get Quote.png" alt="" class="absolute top-16 right-0 pr-5 pt-3">
+
+                        </div>
+
+
+
+                    </div>
+
+                    <!-- card 9 -->
+                    <div class="swiper-slide mx-auto" style="width: 350px;">
+
+
+
+                        <!-- for eluthu  -->
+                        <div class=" p-6 h-fit  bg-cardbg rounded-xl ">
+                            <div class="flex justify-evenly">
+                                <img src="src/Testimonials/Ellipse 110 (2).png" alt="" srcset="">
+                                <div class="flex flex-col justify-center">
+                                    <p class="text-green-primary ">Name</p>
+                                    <p class="text-white">id</p>
+                                </div>
+                                <span class="px-3"></span>
+                            </div>
+                            <p class="mb-3 font-normal text-white dark:text-gray-400 p-3">Lorem
+                                Ipsum is simply dummy text
+                                of the printing and typesetting
+                                industry.Lorem Ipsum is simply
+                                dummy text of the printing and
+                                typesetting industry.</p>
+                            <img src="src/Get Quote.png" alt="" class="absolute top-16 right-0 pr-5 pt-3">
+                        </div>
+
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <!-- button 2  -->
+    <div class="block self-center p-2"> <button aria-label="Next slide"
+            class="next-button rounded-full p-4 bg-green-primary text-white ">
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </svg>
+        </button>
+        <img src="src/Testimonials/Group 231.png" alt="" srcset="" class="absolute hidden md:block w-24 h-36"
+            style="right: 53px; bottom: 23px;">
+    </div>
+    </div>
+
+
+
+    <!-- testimonial end  -->
+
+
+
+
+
+
+    <!-- footer start  -->
+
+    <!-- component -->
+    <div class="mx-auto container py-8 xl:px-20 lg:px-12 sm:px-6 px-4">
+        <!-- grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 gap-4 -->
+        <div class="flex flex-wrap justify-around   ">
+            <div class="flex flex-col flex-shrink-0 pb-6  md:pb-0 ">
+                <div class="dark:text-white">
+                    <a href="#" class="flex items-center">
+                        <img src="src/Ellipse 6.png" class="h-8 mr-3" alt="Brand Logo" />
+                        <span
+                            class="self-center text-green-primary text-2xl font-bold whitespace-nowrap dark:text-white">HelpWithMyVisa</span>
+                    </a>
+                </div>
+                <p class="text-xl font-semibold leading-none text-gray-800 mt-6 dark:text-white">Follow Us</p>
+                <div class="flex items-center gap-x-4 mt-6">
+                    <a href="#"><img src="src/socialmedia/Facebook.png" alt="Facebook" srcset=""></a>
+                    <a href="#"><img src="src/socialmedia/Instagram.png" alt="Instagram" srcset=""></a>
+                    <a href="#"><img src="src/socialmedia/Twitter.png" alt="Twitter" srcset=""></a>
+
+
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <h2 class="text-xl font-semibold leading-4 text-gray-800 dark:text-white">Company</h2>
+                <a href="javascript:void(0)"
+                    class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Blog</a>
+                <a href="javascript:void(0)"
+                    class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Pricing</a>
+                <a href="javascript:void(0)"
+                    class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">About
+                    Us</a>
+                <a href="javascript:void(0)"
+                    class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Contact
+                    us</a>
+                <a href="javascript:void(0)"
+                    class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Testimonials</a>
+            </div>
+            <div class="md:flex flex-col hidden">
+                <h2 class="text-xl font-semibold leading-4 text-gray-800 dark:text-white pb-2">Recent News</h2>
+
+
+
+                <div class="flex align-middle py-2">
+                    <img src="src/Rectangle 157.png" alt="" srcset="">
+                    <div class="px-4">
+                        <p class="text-base text-left font-normal py-2">Blog Title</p>
+
+                        <div class="flex "><img src="src/Clock.png" alt="" srcset=""><span
+                                class="font-light text-sm flex items-center text-green-primary">2 Days Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex align-middle py-2">
+                    <img src="src/Rectangle 158.png" alt="" srcset="">
+                    <div class="px-4">
+                        <p class="text-base text-left font-normal py-2">Blog Title</p>
+
+                        <div class="flex "><img src="src/Clock.png" alt="" srcset=""><span
+                                class="font-light text-sm flex items-center text-green-primary ">2 Days Ago</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class=" lg:block hidden">
+                <h2 class="text-xl font-semibold leading-4 text-gray-800 dark:text-white pb-2">Contact Us</h2>
+                <div class="flex flex-col py-1">
+                    <div class="flex py-5">
+                        <img src="src/Home Address.png" alt="" class="" srcset="">
+                        <span class="text-base text-justify font-normal py-2">Address</span>
+                    </div>
+                    <div class="flex py-5"><img src="src/Phone.png" alt="" class="" srcset="">
+                        <span class="text-base text-center font-normal py-2">Reach Us</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- footer end  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <!-- script  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    <script src="javascript.js"></script>
+
+
+</body>
+
+</html>
